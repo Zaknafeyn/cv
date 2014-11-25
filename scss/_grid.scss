@@ -1,0 +1,70 @@
+.row{
+	display: block;
+	width: $row-width;
+	margin: 0 auto;
+}
+
+.span {
+	display: block;
+	float: left;
+}
+
+.span-1{
+	@extend .span;
+	width: $grid-item-width;
+}
+
+.span-2{
+	@extend .span;
+	width: $grid-item-width * 2;
+}
+
+.span-3{
+	@extend .span;
+	width: $grid-item-width * 3;
+}
+
+.span-4{
+	@extend .span;
+	width: $grid-item-width * 4;
+}
+
+.span-5{
+	@extend .span;
+	width: $grid-item-width * 5;
+}
+
+.span-6{
+	@extend .span;
+	width: $grid-item-width * 6;
+}
+
+.span-7{
+	@extend .span;
+	width: $grid-item-width * 7;
+}
+
+.span-8{
+	@extend .span;
+	width: $grid-item-width * 8;
+}
+
+.span-9{
+	@extend .span;
+	width: $grid-item-width * 9;
+}
+
+.span-10{
+	@extend .span;
+	width: $grid-item-width * 10;
+}
+
+.span-11{
+	@extend .span;
+	width: $grid-item-width * 11;
+}
+
+.span-12{
+	@extend .span;
+	width: $grid-item-width * 12;
+}

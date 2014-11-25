@@ -1,0 +1,38 @@
+@import "resets";
+@import "variables";
+@import "grid";
+
+body{
+	background-color: $primary-background-color;
+}
+
+.language-image{
+	border-radius: 10;
+	width: 20;
+	height: 20;
+}
+
+.profilePhoto{
+	width: 180px;
+	height: 180px;
+}
+
+.content{
+
+
+}
+
+.palette{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: calc((100% - #{$palette-width})/2);
+	margin-right: calc((100% - #{$palette-width})/2);
+	background-color: #ffffff;
+	padding: 30px;
+	width: $palette-width;
+	
+}
+
+span.name{
+	
+}
