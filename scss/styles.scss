@@ -1,6 +1,8 @@
 @import "resets";
 @import "variables";
 @import "grid";
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,600); // name
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro|Exo+2:400,600); // title
 
 body{
 	background-color: $primary-background-color;
@@ -18,21 +20,40 @@ body{
 }
 
 .content{
-
-
+	height: 1000px;
 }
 
 .palette{
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 30px;
 	margin-left: calc((100% - #{$palette-width})/2);
 	margin-right: calc((100% - #{$palette-width})/2);
 	background-color: #ffffff;
 	padding: 30px;
 	width: $palette-width;
-	
 }
 
+// name
 span.name{
-	
+	text-transform: uppercase;
+	color: $headers-color;
+	font-size: 26px;
+	font-family: 'Exo 2', sans-serif;
+
+}
+
+div.title-name{
+	padding-left: 15px;
+}
+
+// titles
+span.title {
+	color: $color1;
+	font-size: 14px;
+	font-family: 'Maven Pro', sans-serif;
+	text-transform: uppercase;
+}
+
+div.title-wrapper {
+	margin-top: 10px;
 }
