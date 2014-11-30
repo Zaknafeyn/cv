@@ -1,0 +1,74 @@
+.skill_name {
+    margin: 5px;
+}
+
+$background-color: $color4;
+$fill-color: $color2;
+
+
+.level{
+    text-indent: 0px;
+    background-color: $background-color;
+    height: 5px;
+    width: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+}
+
+.l{
+    background-color: $fill-color;
+    display: block;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.l-1 {
+    @extend .l;
+    width: 10%;
+}
+
+.l-2 {
+    @extend .l;
+    width: 20%;
+}
+
+.l-3 {
+    @extend .l;
+    width: 30%;
+}
+
+.l-4 {
+    @extend .l;
+    width: 40%;
+}
+
+.l-5 {
+    @extend .l;
+    width: 50%;
+}
+
+.l-6 {
+    @extend .l;
+    width: 60%;
+}
+
+.l-7 {
+    @extend .l;
+    width: 70%;
+}
+
+.l-8 {
+    @extend .l;
+    width: 80%;
+}
+
+.l-9 {
+    @extend .l;
+    width: 90%;
+}
+
+.l-10 {
+    @extend .l;
+    width: 100%;
+}
