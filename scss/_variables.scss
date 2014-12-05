@@ -13,6 +13,7 @@ $color6: #C98011;
 
 // grey colors
 $gray-color-1: #444;
+$gray-color-2: #D9D9D9;
 
 $palette-width: 800px;
 $row-width: 720px;
@@ -24,3 +25,10 @@ $grid-item-width: $row-width / 12;
 $default-hover-color: $color2;
 $default-link-color: $color1;
 /* links */
+
+/* fonts */
+$font-arial: 'Arial', sans-serif;
+$font-exo-2: 'Exo 2', sans-serif;
+$font-maven-pro: 'Maven Pro', sans-serif;
+$font-open-sans: "Open Sans", Arial, sans-serif;
+/* fonts */

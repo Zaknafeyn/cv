@@ -1,0 +1,21 @@
+$skill-area-font-size: 16px;
+$skill-area-width: calc($skill-area-font-size + 4px);
+
+.skills-layout {
+	text-align: center;
+}
+
+.skillset {
+	width: 100%;
+	padding: 5px 0px;
+	overflow: hidden;
+}
+
+.skill-area {
+	background-color: $gray-color-2;
+	border-radius: 4px;
+	color: $headers-color;
+	font-family: $font-exo-2;
+	font-size: $skill-area-font-size;
+	width: $skill-area-width;
+}

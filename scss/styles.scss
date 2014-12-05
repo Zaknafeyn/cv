@@ -2,6 +2,7 @@
 @import "levels";
 @import "resets";
 @import "grid";
+@import "skills";
 // @import url(http://fonts.googleapis.com/css?family=Exo+2:400,600); // name
 @import url(http://fonts.googleapis.com/css?family=Maven+Pro|Exo+2:400,600); // title
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300,800&subset=latin,cyrillic-ext);
@@ -55,7 +56,6 @@ span.name{
 	color: $headers-color;
 	font-size: 26px;
 	font-family: 'Exo 2', sans-serif;
-
 }
 
 div.title-name{
@@ -115,19 +115,18 @@ div.contacts-bar {
 	width: 100%;
 }
 
-
-.download-cv:link, .download-cv:visited {
+.download-cv:link, .download-cv:visited, .download-cv:hover {
 	font-family: 'Arial', sans-serif;
 	font-size: 14px;
-	color: $default-link-color;
 	text-decoration: none;
 }
 
-.download-cv:hover{
-	font-family: 'Arial', sans-serif;
-	font-size: 14px;
+.download-cv:link, .download-cv:visited {
+	color: $default-link-color;
+}
+
+.download-cv:hover {
 	color: $default-hover-color;
-	text-decoration: none;
 }
 
 // summary
@@ -141,10 +140,12 @@ div.contacts-bar {
 	padding: 20px;
 }
 
+
 .summary-text {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: $font-open-sans;
 	color: $headers-color;
 	font-size: 16px;
 	font-weight: 300;
 	text-align: center;
+	line-height: 2;
 }
