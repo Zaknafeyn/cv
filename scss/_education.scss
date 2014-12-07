@@ -1,0 +1,22 @@
+.row-edu {
+	@extend .row;
+	padding: 10px 0px;
+}
+
+.edu-area {
+	@extend .common-area;
+}
+
+.edu-item {
+	@extend .common-item;
+	text-align: left;
+}
+
+.edu-place {
+	@extend .common-item;
+}
+
+.edu-descr {
+	font: $font-edu-descr-text;
+	color: $gray-color-1;
+}

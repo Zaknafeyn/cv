@@ -20,23 +20,24 @@ time, mark, audio, video
     vertical-align: baseline;
 }
 
-a:link, a:visited {
-	font-family: 'Arial', sans-serif;
+a:link, a:visited, a:hover {
+	font-family: $font-arial;
 	font-size: 12px;
+}
+
+a:link, a:visited {
 	color: $default-link-color;
 	text-decoration: none;
 }
 
 a:hover{
-	font-family: 'Arial', sans-serif;
-	font-size: 12px;
 	color: $default-hover-color;
 	text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: $color6;
-	font-family: 'Maven Pro', sans-serif;
+	font-family: $font-maven-pro;
 }
 
 h2 {

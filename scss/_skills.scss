@@ -1,5 +1,5 @@
+
 $skill-area-font-size: 14px;
-$skill-name-font-size: calc($skill-area-font-size - 2px);
 
 .row-skill {
 	@extend .row;
@@ -13,21 +13,24 @@ $skill-name-font-size: calc($skill-area-font-size - 2px);
 }
 
 .skill-area {
-	background-color: $gray-color-3;
-	border-radius: 4px;
-	color: $gray-color-1;
-	font-family: $font-exo-2;
+	// background-color: $gray-color-3;
+	// border-radius: 4px;
+	// color: $gray-color-1;
+	// font-family: $font-exo-2;
+	// font-size: $skill-area-font-size;
+	// width: 95%;
+	// padding: 6px;
+	// padding-right: 4px;
+	// text-align: right;
+	// display: block;
+	@extend .common-area;
 	font-size: $skill-area-font-size;
-	width: 95%;
-	padding: 6px;
-	padding-right: 4px;
-	text-align: right;
-	display: block;
 }
 
 .skill-item {
-	width: 90%;
-	padding: 0 5%;
+	// width: 90%;
+	// padding: 0 5%;
+	@extend .common-item;
 }
 
 .skill-name {

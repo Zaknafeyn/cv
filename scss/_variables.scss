@@ -33,3 +33,14 @@ $font-exo-2: 'Exo 2', sans-serif;
 $font-maven-pro: 'Maven Pro', sans-serif;
 $font-open-sans: "Open Sans", Arial, sans-serif;
 /* fonts */
+
+/* 
+font shorthands:
+font: font-style font-variant font-weight font-size/line-height font-family;
+ */
+$font-contacts: normal normal normal 12px/100% $font-arial;
+$font-download-cv-link: normal normal normal 14px/100% $font-arial;
+$font-summary-text: normal normal 300 16px/200% $font-open-sans;
+$font-title: normal normal normal 14px/100% $font-maven-pro;
+$font-name-header: normal normal normal 26px/100% $font-exo-2;
+$font-edu-descr-text: normal normal normal 16px/100% $font-maven-pro;
