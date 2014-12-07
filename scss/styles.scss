@@ -1,8 +1,9 @@
 @import "variables";
-@import "levels";
 @import "resets";
+@import "levels";
 @import "grid";
 @import "skills";
+@import "carousel";
 // @import url(http://fonts.googleapis.com/css?family=Exo+2:400,600); // name
 @import url(http://fonts.googleapis.com/css?family=Maven+Pro|Exo+2:400,600); // title
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300,800&subset=latin,cyrillic-ext);
@@ -15,7 +16,6 @@ body{
 	border-radius: 7;
 	width: 14;
 	height: 14;
-	float: left;
 }
 
 .language-bar {
@@ -37,7 +37,7 @@ body{
 }
 
 .content{
-	height: 1000px;
+	height: 1500px;
 }
 
 .palette{

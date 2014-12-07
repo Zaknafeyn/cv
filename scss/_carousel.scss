@@ -1,0 +1,22 @@
+$carousel-height: 50px;
+$carousel-button-pos: 40px; 
+
+.carousel{
+	// padding
+	height: $carousel-height;
+	width: 100%;
+}
+
+.slick-next {
+	// color: green;
+	right: $carousel-button-pos !important;
+}
+
+.slick-prev {
+	left: $carousel-button-pos !important;	
+}
+
+.slick-prev:before, .slick-next:before { 
+    color: $color2;
+    opacity: 0.3;
+}
