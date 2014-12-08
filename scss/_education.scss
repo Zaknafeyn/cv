@@ -13,7 +13,9 @@
 }
 
 .edu-place {
-	@extend .common-item;
+	@extend .common-area;
+
+	background-color: rgba(ff,ff,ff,0);
 }
 
 .edu-descr {
