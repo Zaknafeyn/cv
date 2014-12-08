@@ -20,3 +20,16 @@ $carousel-button-pos: 40px;
     color: $color2;
     opacity: 0.3;
 }
+
+.carousel-item {
+	width: 400px;
+	height: auto;
+	padding-left: calc (50% - 200px);
+	
+}
+
+.carousel-img {
+	width: 400px;
+	height: auto;
+	// left: calc (50% - 200px);	
+}
