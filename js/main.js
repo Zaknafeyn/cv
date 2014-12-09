@@ -1,7 +1,7 @@
 // init slick carousel
 $(document).ready(function(){
 	$('.carousel').slick({
-		dots: true,
+		dots: false,
 		infinite: true,
 		fade: true,
 		slide: 'div',
