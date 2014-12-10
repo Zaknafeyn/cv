@@ -17,7 +17,33 @@
 	background-color: rgba(255,255,255,0);
 }
 
-.exp-descr {
+.exp-descr, .exp-descr > a {
 	font: $font-edu-descr-text;
 	color: $gray-color-1;
+}
+
+.exp-logo {
+	width: 80px;
+	height: auto;
+	margin: 5px;
+}
+
+.exp-header {
+	width: 100%;
+	height: auto;
+	background-color: $gray-color-3;
+}
+
+.exp-descr > a:hover {
+	opacity: 0.7;
+}
+ 
+.exp-technologies {
+
+}
+
+.exp-position{
+	@extend .exp-area;
+
+	font-weight: bold;
 }
