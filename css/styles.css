@@ -1,0 +1,358 @@
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro|Exo+2:400,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300,800&subset=latin,cyrillic-ext);
+/* grid variables */
+/* links */
+/* links */
+/* fonts */
+/* fonts */
+/* 
+font shorthands:
+font: font-style font-variant font-weight font-size/line-height font-family;
+ */
+.common-item, .skill-item, .exp-item, .edu-item {
+  width: 90%;
+  padding: 0 5%; }
+
+.common-area, .skill-area, .exp-area, .exp-position, .exp-place, .edu-area, .edu-place {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  color: #444;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 14px;
+  width: 95%;
+  padding: 6px;
+  padding-right: 4px;
+  text-align: right;
+  display: block; }
+
+/*resets*/
+/*div,*/
+html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+a:link, a:visited, a:hover {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px; }
+
+a:link, a:visited {
+  color: #3177AD;
+  text-decoration: none; }
+
+a:hover {
+  color: #398AC9;
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #C98011;
+  font-family: 'Maven Pro', sans-serif; }
+
+h2 {
+  font-size: 26px;
+  padding: 10px; }
+
+article {
+  text-align: center; }
+
+.skill_name {
+  margin: 5px; }
+
+.level {
+  text-indent: 0px;
+  background-color: #D9D9D9;
+  height: 5px;
+  width: 100%;
+  margin: 5px;
+  border-radius: 5px;
+  float: left; }
+
+.l, .l-1, .l-2, .l-3, .l-4, .l-5, .l-6, .l-7, .l-8, .l-9, .l-10 {
+  background-color: #398AC9;
+  display: block;
+  height: 5px;
+  border-radius: 5px; }
+
+.l-1 {
+  width: 10%; }
+
+.l-2 {
+  width: 20%; }
+
+.l-3 {
+  width: 30%; }
+
+.l-4 {
+  width: 40%; }
+
+.l-5 {
+  width: 50%; }
+
+.l-6 {
+  width: 60%; }
+
+.l-7 {
+  width: 70%; }
+
+.l-8 {
+  width: 80%; }
+
+.l-9 {
+  width: 90%; }
+
+.l-10 {
+  width: 100%; }
+
+.row, .row-skill, .row-exp, .row-edu {
+  display: block;
+  width: 720px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.span, .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12 {
+  display: block;
+  float: left; }
+
+.span-1 {
+  width: 60px; }
+
+.span-2 {
+  width: 120px; }
+
+.span-3 {
+  width: 180px; }
+
+.span-4 {
+  width: 240px; }
+
+.span-5 {
+  width: 300px; }
+
+.span-6 {
+  width: 360px; }
+
+.span-7 {
+  width: 420px; }
+
+.span-8 {
+  width: 480px; }
+
+.span-9 {
+  width: 540px; }
+
+.span-10 {
+  width: 600px; }
+
+.span-11 {
+  width: 660px; }
+
+.span-12 {
+  width: 720px; }
+
+.row-skill {
+  padding: 10px 0px; }
+
+.skillset {
+  width: 100%;
+  padding: 5px 0px;
+  overflow: hidden; }
+
+.skill-area {
+  font-size: 14px; }
+
+.skill-name {
+  display: block;
+  width: 100%;
+  font-size: 10px;
+  color: #398AC9;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 14px; }
+
+.fa-lg-fix {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -5%; }
+
+.row-exp {
+  padding: 10px 0px; }
+
+.exp-item {
+  text-align: left; }
+
+.exp-place {
+  background-color: rgba(255, 255, 255, 0); }
+
+.exp-descr, .exp-descr > a {
+  font: normal normal normal 16px/100% 'Maven Pro', sans-serif;
+  color: #444; }
+
+.exp-logo {
+  width: 80px;
+  height: auto;
+  margin: 5px; }
+
+.exp-header {
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5; }
+
+.exp-descr > a:hover {
+  opacity: 0.7; }
+
+.exp-position {
+  font-weight: bold; }
+
+.carousel {
+  height: 50px;
+  width: 100%; }
+
+.slick-prev, .slick-next {
+  top: 150px; }
+
+.slick-next {
+  right: 160px !important; }
+
+.slick-prev {
+  left: 160px !important; }
+
+.slick-prev:before, .slick-next:before {
+  color: #398AC9;
+  opacity: 0.3; }
+
+.carousel-item {
+  width: 400px;
+  height: auto; }
+
+.carousel-img {
+  width: 400px;
+  height: auto;
+  margin: 0 calc(50% - 200px);
+  border-radius: 10px; }
+
+.carousel-text {
+  display: block;
+  position: absolute;
+  top: 250px;
+  left: calc(50% - 200px + 15px);
+  width: auto;
+  background-color: black;
+  color: #398AC9;
+  opacity: 0.7;
+  font: normal normal normal 26px/100% 'Exo 2', sans-serif; }
+
+.row-edu {
+  padding: 10px 0px; }
+
+.edu-item {
+  text-align: left; }
+
+.edu-place {
+  background-color: rgba(255, 255, 255, 0); }
+
+.edu-descr {
+  font: normal normal normal 16px/100% 'Maven Pro', sans-serif;
+  color: #444; }
+
+body {
+  background-color: #cccccc; }
+
+.language-image {
+  border-radius: 7px;
+  width: 14px;
+  height: 14px; }
+
+.language-bar {
+  padding-top: 15px;
+  padding-left: calc((100% - 150px) / 2);
+  text-align: center;
+  float: left;
+  width: 100%; }
+
+.language-bar > div {
+  clear: left; }
+
+.profilePhoto {
+  width: 180px;
+  height: 180px; }
+
+.content {
+  height: 2210px; }
+
+.palette {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: calc((100% - 800px)/2);
+  margin-right: calc((100% - 800px)/2);
+  background-color: #ffffff;
+  padding: 30px;
+  width: 800px; }
+
+span.name {
+  text-transform: uppercase;
+  color: #23567D;
+  font: normal normal normal 26px/100% 'Exo 2', sans-serif; }
+
+div.title-name {
+  padding-left: 15px; }
+
+span.title {
+  color: #3177AD;
+  text-transform: uppercase;
+  font: normal normal normal 14px/100% 'Maven Pro', sans-serif; }
+
+div.title-wrapper {
+  margin-top: 10px; }
+
+div.contacts-points {
+  text-align: right;
+  padding-right: 5px; }
+
+div.contacts {
+  text-align: left;
+  padding-left: 5px; }
+
+span.contacts, span.contacts-points, span.contacts-address-name, span.contacts-address-value {
+  font: normal normal normal 12px/100% 'Arial', sans-serif; }
+
+span.contacts-points {
+  color: #398AC9; }
+
+span.contacts-address-name {
+  color: #398AC9; }
+
+span.contacts-address-value {
+  color: #3177AD; }
+
+div.contact-item {
+  margin-bottom: 5px; }
+
+div.contacts-bar {
+  padding-top: 15px;
+  text-align: center;
+  float: left;
+  width: 100%; }
+
+.download-cv:link, .download-cv:visited, .download-cv:hover {
+  font: normal normal normal 14px/100% 'Arial', sans-serif; }
+
+.download-cv:link, .download-cv:visited {
+  color: #3177AD; }
+
+.download-cv:hover {
+  color: #398AC9; }
+
+.summary-border {
+  margin-top: 10px;
+  border-style: solid none;
+  border-width: 1px;
+  border-color: #3177AD;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 20px; }
+
+.summary-text {
+  color: #23567D;
+  text-align: center;
+  font: normal normal 300 16px/200% "Open Sans", Arial, sans-serif; }
