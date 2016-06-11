@@ -287,7 +287,8 @@ body {
   margin-right: calc((100% - 800px)/2);
   background-color: #ffffff;
   padding: 30px;
-  width: 800px; }
+  width: 800px;
+  height: 2340; }
 
 span.name {
   text-transform: uppercase;
